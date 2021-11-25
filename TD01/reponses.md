@@ -7,9 +7,9 @@
 > 30px 40px;" lui est affectée ?
 
 Cette propriété affecte, dans l'ordre, le bord haut - droit - bas - gauche.
-Sans compter le contenu:
-    - Entre les bords droit et gauche, il y a 60px : 20px + 40px
-    - Entre les bords supérieur et inférieur, il y a 30px.
+Sans compter les bords:
+    - Entre les bords droit et gauche, il y a 260px : 20px + 40px + 200px
+    - Entre les bords supérieur et inférieur, il y a 60px : 10px + 30px + 20px
 
 ### Question 2
 > Que se passe-t-il (quels changement visuel prennent effet) lorsque
