@@ -1,0 +1,53 @@
+section {
+    clear: both;
+    width: 100%;
+}
+
+#twitterfeed {
+    margin: 0px;
+    clear: both;
+    border-left: none;
+    border-top: solid 1px red;
+}
+
+#menub>div {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+
+nav>ul {
+    padding-top: 0;
+    display: none;
+}
+
+nav:hover #menub {
+    display: none;
+}
+
+nav:hover>ul {
+    display: inline-block;
+}
+
+nav>ul {
+    width: auto;
+    margin: auto;
+    padding-left: 0px;
+}
+
+nav>ul>li {
+    clear: both;
+}
+
+nav>ul>li>ul>li {
+    position: relative;
+    left: 150px;
+    top: -41px;
+}
+
+nav>ul>li>ul {
+    margin: auto;
+    padding: auto;
+    padding-top: -42px;
+}
