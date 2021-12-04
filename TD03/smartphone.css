@@ -1,15 +1,18 @@
+/* Section takes all width */
 section {
     clear: both;
-    width: 100%;
+    width: auto;
 }
 
+/* twitter feed is below the section */
 #twitterfeed {
-    margin: 0px;
+    margin: 0;
     clear: both;
     border-left: none;
     border-top: solid 1px red;
 }
 
+/* Menu icon (three lines) */
 #menub>div {
     width: 35px;
     height: 5px;
@@ -17,37 +20,33 @@ section {
     margin: 6px 0;
 }
 
+/* Remove previous padding for the menu, hides it */
 nav>ul {
     padding-top: 0;
     display: none;
+    width: auto;
 }
 
-nav:hover #menub {
+/* Hides menu accessor on hover */
+nav:hover>#menub {
     display: none;
 }
 
+/* Replaces it with menu */
 nav:hover>ul {
-    display: inline-block;
+    display: block;
 }
 
-nav>ul {
-    width: auto;
-    margin: auto;
-    padding-left: 0px;
-}
-
+/* Make them vertical, not horizontal. Limit width and height of each element */
 nav>ul>li {
-    clear: both;
+    float: none;
+    width: 150px;
+    height: 18px;
 }
 
-nav>ul>li>ul>li {
+/* Move submenu items to the right */
+nav>ul>li>ul {
     position: relative;
     left: 150px;
-    top: -41px;
-}
-
-nav>ul>li>ul {
-    margin: auto;
-    padding: auto;
-    padding-top: -42px;
+    bottom: 42px;
 }
