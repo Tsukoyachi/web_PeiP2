@@ -45,8 +45,13 @@ nav>ul>li {
 }
 
 /* Move submenu items to the right */
-nav>ul>li>ul {
+nav>ul>li:hover>ul {
     position: relative;
     left: 150px;
     bottom: 42px;
+}
+
+/* Fix missing border on submenu items */
+nav>ul>li>ul>li {
+    margin-right: -3px;
 }
